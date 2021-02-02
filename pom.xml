@@ -44,7 +44,7 @@
         </plugins>
     </build>
     <scm>
-        <developerConnection>scm:git:git@github.com:Dongmoon29/springboot-petclinic.git</developerConnection>
+        <developerConnection>scm:git:ssh@github.com:Dongmoon29/springboot-petclinic.git</developerConnection>
       <tag>kdm-clinic-0.0.1</tag>
   </scm>
 
