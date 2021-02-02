@@ -15,7 +15,7 @@
 
     <groupId>com.pet-clinic</groupId>
     <artifactId>kdm-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>kdm-clinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -45,6 +45,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/Dongmoon29/springboot-petclinic.git</developerConnection>
-    </scm>
+      <tag>kdm-clinic-0.0.1</tag>
+  </scm>
 
 </project>
