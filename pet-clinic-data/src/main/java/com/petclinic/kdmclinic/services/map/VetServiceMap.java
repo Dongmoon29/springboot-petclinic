@@ -1,6 +1,5 @@
 package com.petclinic.kdmclinic.services.map;
 
-<<<<<<< HEAD
 import com.petclinic.kdmclinic.model.Pet;
 import com.petclinic.kdmclinic.model.Vet;
 import com.petclinic.kdmclinic.services.CrudService;
@@ -32,7 +31,4 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements Crud
     public void deleteById(Long id) {
         super.deleteById(id);
     }
-=======
-public class VetServiceMap {
->>>>>>> origin/master
 }
