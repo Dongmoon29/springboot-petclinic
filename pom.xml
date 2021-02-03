@@ -15,7 +15,7 @@
 
     <groupId>com.pet-clinic</groupId>
     <artifactId>kdm-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>kdm-clinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -36,6 +36,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
@@ -45,7 +46,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/Dongmoon29/springboot-petclinic.git</developerConnection>
-      <tag>kdm-clinic-0.0.1</tag>
+      <tag>kdm-clinic-0.0.2</tag>
   </scm>
 
 </project>
