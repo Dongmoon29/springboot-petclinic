@@ -1,6 +1,6 @@
 package com.petclinic.kdmclinic.model;
 
-public class PetType {
+public class PetType extends BassEntity{
 
     private String name;
 
