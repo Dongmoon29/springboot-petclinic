@@ -2,7 +2,7 @@ package com.petclinic.kdmclinic.model;
 
 import java.io.Serializable;
 
-public class BassEntity implements Serializable {
+public class BaseEntity implements Serializable {
     private Long id;
 
     public Long getId() {
