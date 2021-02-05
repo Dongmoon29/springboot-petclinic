@@ -1,7 +1,6 @@
 package com.petclinic.kdmclinic.services.map;
 
 import com.petclinic.kdmclinic.model.Owner;
-import com.petclinic.kdmclinic.services.CrudService;
 import com.petclinic.kdmclinic.services.OwnerService;
 import org.springframework.stereotype.Service;
 
