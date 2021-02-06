@@ -2,12 +2,14 @@ package com.petclinic.kdmclinic.services.map;
 
 import com.petclinic.kdmclinic.model.Pet;
 import com.petclinic.kdmclinic.services.CrudService;
+import com.petclinic.kdmclinic.services.PetService;
+import com.petclinic.kdmclinic.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
