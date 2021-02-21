@@ -5,20 +5,17 @@ import com.petclinic.kdmclinic.model.Pet;
 import com.petclinic.kdmclinic.services.OwnerService;
 import com.petclinic.kdmclinic.services.PetService;
 import com.petclinic.kdmclinic.services.PetTypeService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@RequiredArgsConstructor
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;
     private final PetService petService;
-
-    public OwnerServiceMap(PetTypeService petTypeService, PetService petService) {
-        this.petTypeService = petTypeService;
-        this.petService = petService;
-    }
 
     @Override
     public Set<Owner> findAll() {
