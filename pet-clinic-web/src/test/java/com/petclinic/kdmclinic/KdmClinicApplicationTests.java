@@ -9,5 +9,4 @@ class KdmClinicApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
